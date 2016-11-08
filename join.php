@@ -1,5 +1,7 @@
 <?php
+
 require_once('dbConnect.php'); 
+
 if($_SERVER['REQUEST_METHOD']=='POST'){ 
 //Getting values 
 $name = $_POST['name']; 

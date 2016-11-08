@@ -1,10 +1,7 @@
 <?php
- define('HOST','localhost');
- define('USER','root');
- define('PASS','');
- define('DB','dbcourse');
- 
- $con = mysqli_connect(HOST,USER,PASS,DB) or die('Unable to Connect');
+
+require_once('dbConnect.php'); 
+
  if($_SERVER['REQUEST_METHOD']=='POST'){
  //Getting values
  
