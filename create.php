@@ -1,6 +1,7 @@
 <?php
 require_once('dbConnect.php'); 
 if($_SERVER['REQUEST_METHOD']=='POST'){ 
+	
 //Getting values 
 $event = $_POST['event']; 
 $location = $_POST['location']; 
